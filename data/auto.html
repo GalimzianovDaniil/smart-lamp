@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="auto.css">
+    <title>Smart Lamp</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__content">
+                <div class="header__title">Smart Lamp</div>
+            </div>
+        </div>
+    </header>
+
+    <section class="authorization">
+        <div class="container">
+            <form id="form__main-device">
+                <input type="text" id="ssid" class="form-text"><label for="ssid" class="form-text">Имя сети</label>
+                <input type="password" id="password" class="form-text"><label for="ssid" class="form-text">Пароль</label>
+            </form>
+        </div>
+    </section>
+    
+    <section class="devices">
+        <div class="container">
+            <div class="add-device__wrap">
+                <div class="add-device">
+                    <div class="add-divice__text">Добавить устройство</div>
+                    <button class="add-device__btn">+</button>
+                </div>
+            </div>
+            <div class="device__names">              
+            </div>
+            <button class="devices__confirm">Сохранить и перезагрузить</button>
+        </div>
+    </section>
+    
+    <script src="auto.js"></script>
+</body>
+</html>

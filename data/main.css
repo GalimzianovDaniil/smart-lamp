@@ -1,0 +1,81 @@
+/* normolize */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header-content__wrap {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    background-color: cornflowerblue;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.header-content__title {
+    font-size: 45px;
+    color: white;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    width: 300px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+}
+
+.slider__reg {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.slider__line {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 200px;
+    height: 10px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.slider__dot {
+    height: 15px;
+    width: 15px;
+    background-color: blueviolet;
+    border: 5px solid magenta;
+    border-radius: 50%;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    width: 100%;
+    height: 30px;
+}
+
+#r1 {
+    appearance: none;
+    border-radius:2px;
+    width:600px;
+    height:10px;
+    outline : none;
+    border:1px solid #D4D4D4;
+}
